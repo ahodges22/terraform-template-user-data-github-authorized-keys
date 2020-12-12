@@ -29,10 +29,8 @@ __EOF__
 cat <<"__EOF__" > /etc/systemd/system/github-authorized-keys.service
 [Unit]
 Description=GitHub Authorized Keys
-
 Requires=network-online.target
 After=network-online.target
-
 [Service]
 User=root
 TimeoutStartSec=0
