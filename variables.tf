@@ -14,3 +14,4 @@ variable "flavor" {
   default     = "debian-systemd"
   description = "Flavor depends of OS and init system"
 }
+
